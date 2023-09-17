@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --primary-text-color : #222222;
+    --accent-color : #222222;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-text-color);
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.para-section p {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.input-section input {
+    width: 700px;
+    height: 40px;
+    border:  none;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 0 4px #faedcd;
+}
+
+.list-section {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-weight: bold;
+}
+
+.first-button {
+    background-color: var(--accent-color);
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+    width: 80px;
+}
+
+.first-button:hover {
+    background-color: #8f8a8a;
+}
+
+.second-button {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(83, 82, 82);
+
+}
+
+.second-button:hover {
+    background-color: #222222;
+    color: white;
+}
+
+.button-section {
+    display: flex;
+    gap: 10px;
+}
+
+nav {
+    max-width: 1425px;
+    padding: 20px;
+}
